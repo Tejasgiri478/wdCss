@@ -1,0 +1,36 @@
+
+    /* External Styles */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #4CAF50;
+        color: white;
+        text-align: center;
+        padding: 1em 0;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .box {
+        background-color: #ddd;
+        margin: 20px 0;
+        padding: 20px;
+        border-radius: 5px;
+    }
+
+    .box h2 {
+        color: #333;
+    }
+
+    .box p {
+        color: #666;
+        text-align: justify;
+    }
