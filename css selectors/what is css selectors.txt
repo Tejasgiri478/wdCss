@@ -1,0 +1,11 @@
+Q. What is css selector?
+A.  css selectors is used to select elements of html to apply style on it.
+
+Q. Types of css Selectors?
+A. there are some types of css selectors listed bellow
+    1) Simple selectors
+    2) Combinator Selectors ( element, id, class )
+    3) pseudo-class Selectors
+    4) pseudo-element Selectors
+    5) attribute Selectors
+    6) Universal Selectors

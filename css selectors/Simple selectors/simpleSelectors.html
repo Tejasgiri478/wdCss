@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple selectors</title>
+
+    <style>
+        /* element selector */
+        p {
+            width: 60%;
+            margin: auto;
+            background-color: darkblue;
+            color: aliceblue;
+            text-align: justify;
+        }
+
+        /* id selector */
+        #heading1 { 
+            text-align: center;
+            color:blue ;
+        }
+        #paragraph1 {
+            background-color: yellow;
+            color: red;
+        }
+
+        /* class selector */
+        .font-style
+        {
+            font-family: monospace;
+            font-size: 20px;
+            background-color: black;
+            color: red;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- 
+    
+    there are 3 simple selectors in css
+    1. element selector
+    2. id selector
+    3. class selector
+   
+    -->
+
+    <!-- Element (tag) selector 
+        this type of selector is used to select all elements (tags) in webpage by the same name
+        i.e if we want to apply style on paragraph we can select HTML elements based on the element name <p>
+
+            syntax : element Name {
+                     property : value ;
+                     }
+        
+        there are some drawbacks of this selector is that select all elements by that name
+    -->
+    
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut natus nam illo ab a officiis. Accusamus, dolor molestiae. Voluptate nesciunt ratione eveniet perferendis, maiores accusantium cupiditate soluta mollitia repellendus id.
+    </p>
+    <br>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, accusamus. Obcaecati illum ut vel iste aut. Mollitia, debitis fuga in quaerat nobis nemo laboriosam quo ab enim. Inventore, quod ipsa!
+    </p>
+    <hr>
+    <!-- id selector 
+        this type of selector is used to select specific elements (tags) in webpage
+        i.e if we want to apply style on specific element we can select HTML elements based on the element id
+        we can give id in that perticular element to call it latter by '#' in <style>
+
+            syntax : #IdName {
+                     property : value ;
+                     }
+        
+        there are also drawback of this selector is that it can only select unique element amd its not repeatable 
+    -->
+    
+    <h1 id="heading1">
+        This is id selector
+    </h1>
+    <p id="paragraph1">
+        Ram setu is located beteen Dhanushkodi and the Mannar Island in Sri Lanka.
+    </p>
+    <br>
+
+    <!-- class selector 
+        this type of selector is used to select specific elements (tags) in webpage
+        i.e if we want to apply same style on some element we can select HTML elements based on the element class
+        we can give class in that all element to call it latter by '.' in <style>
+
+            syntax : .className {
+                     property : value ;
+                     }
+        
+        the drawback of not repeatation is solved by this selector, 
+        repeatable and not unique
+    -->
+            <hr>
+            <h1 align="center">this is class selector</h1>
+            <br>
+    <div>
+        <p class="font-style">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore maiores qui consequuntur quod vitae harum, quasi doloremque commodi ipsa tempore, obcaecati quo? Ea placeat sint qui tempora est ducimus illum.
+        </p>
+    </div>
+    <br>
+    <div>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur esse pariatur, culpa sed eveniet laboriosam ut nesciunt asperiores laudantium vero dicta quas nobis ex autem? Expedita dolor voluptatem illo laudantium?
+        </p>
+    </div>
+    <br>
+    <div>
+        <p class="font-style">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo voluptatem obcaecati ratione reiciendis excepturi veniam inventore quasi doloribus minima aspernatur! Porro aliquam, accusamus aperiam tempore repudiandae accusantium nihil earum asperiores?
+        </p>
+    </div>
+</body>
+</html>
