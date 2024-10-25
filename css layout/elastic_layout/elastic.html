@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elastic Layout Example</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-size: 100%; /* 1em = 16px by default */
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+
+  .container {
+    width: 90%;
+    max-width: 60em;
+    margin: 0 auto;
+  }
+
+  header, footer {
+    background-color: #4CAF50;
+    padding: 1em;
+    text-align: center;
+    color: white;
+  }
+
+  nav {
+    background-color: #333;
+    padding: 1em;
+  }
+
+  nav a {
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+    font-size: 1em;
+  }
+
+  main {
+    padding: 2em;
+    font-size: 1em; /* Text size grows based on the root font-size */
+  }
+
+  /* Responsive adjustment */
+  @media (max-width: 600px) {
+    nav a {
+      font-size: 0.9em;
+    }
+  }
+</style>
+</head>
+<body>
+
+<!-- Elastic layout means the ability of the site components to change their sizes depending on the size of the browser window, to stretch from the specified minimum to the specified maximum. 
+
+in simple meaning we can provide min-width and max-width to use stratching in our website
+
+we can use em to apply height width of content 
+-->
+<div class="container">
+  <header>
+    <h1>Elastic Layout Example</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <main>
+    <h2>Welcome!</h2>
+    <p>This is a simple elastic layout. The font size and layout adjust based on the viewport size, providing an adaptive experience across different screen sizes.</p>
+  </main>
+
+  <footer>
+    &copy; 2024 Elastic Layout Example
+  </footer>
+</div>
+</body>
+</html>
