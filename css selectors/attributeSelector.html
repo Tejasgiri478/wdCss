@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute</title>
+    <style>
+        form{
+            width: 60%;
+            margin-left: 550px;
+            margin-top: 15%;
+        }
+        form input, form button {
+            border: groove 1px navy;
+            border-radius: 5px;
+        }
+        input[type='text'], input[type='email']{
+            background-color: black;
+            color: wheat;
+            width: 350px;
+        }
+        button[type='submit'] {
+            width: 357px;
+            color: brown;
+            background: goldenrod;
+        }
+    </style>
+</head>
+<body> 
+    <!-- Attribute Selector is used to select elements using their attributes -->
+    
+    <form action="#" method="post">
+        <input type="text" placeholder="enter name*" required />
+        <br>
+        <input type="email" name="" id="" placeholder="enter email*" required />
+        <br>
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
